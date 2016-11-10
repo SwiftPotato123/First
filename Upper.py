@@ -1,12 +1,13 @@
 def upper(s):
-    o=""
+    o = ""
     for l in s:
-        if ord(l)>=ord("A") and ord(l)<=ord("Z"):
-            n=ord(l)+32
-            o= o+chr(n)
+        if ord("A") <= ord(l) <= ord("Z"):
+            n = ord(l) + 32
+            o += chr(n)
         else:
-            o= o+l
+            o = o + l
     return o
 
-s1=upper("Hello World!")
+
+s1 = upper("Hello World!")
 print s1
