@@ -1,4 +1,4 @@
-def upper(s):
+def lower(s):
     o = ""
     for l in s:
         if ord("A") <= ord(l) <= ord("Z"):
@@ -9,5 +9,5 @@ def upper(s):
     return o
 
 
-s1 = upper("Hello World!")
+s1 = lower("Hello World!")
 print s1
